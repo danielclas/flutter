@@ -14,7 +14,7 @@ void main() {
         body: Center(
           child: Center(
             child: Image(
-              image: NetworkImage(new Assets().getImage()),
+              image: AssetImage(new Assets().getImage()),
             ),
           ),
         ),
